@@ -1,0 +1,130 @@
+<EnemyWaves>
+  
+  <Enemies>
+    <Enemy type="1" sprite="{" health="1" speed="1" points="1"/>
+    <Enemy type="2" sprite="[" health="2" speed="1" points="3"/>
+    <Enemy type="3" sprite="=" health="1" speed="3" points="5"/>
+    <Enemy type="4" sprite="#" health="3" speed="2" points="10"/>
+    <Enemy type="5" sprite="?" health="5" speed="2" points="20"/>
+  </Enemies>
+
+  <Waves>
+    <Wave number="1">
+      <Spawn enemy="1" yPercentage="25" time="1" />
+      <Spawn enemy="1" yPercentage="25" time="3" />
+      <Spawn enemy="1" yPercentage="25" time="5" />
+      <Spawn enemy="1" yPercentage="75" time="9" />
+      <Spawn enemy="1" yPercentage="75" time="11" />
+      <Spawn enemy="1" yPercentage="75" time="13" />
+    </Wave>
+
+    <Wave number="2">
+      <Spawn enemy="1" yPercentage="50" time="1" />
+      <Spawn enemy="1" yPercentage="50" time="3" />
+      <Spawn enemy="1" yPercentage="50" time="5" />
+      <Spawn enemy="1" yPercentage="25" time="8" />
+      <Spawn enemy="1" yPercentage="25" time="10" />
+      <Spawn enemy="1" yPercentage="25" time="12" />
+      <Spawn enemy="1" yPercentage="75" time="15" />
+      <Spawn enemy="1" yPercentage="75" time="17" />
+      <Spawn enemy="1" yPercentage="75" time="19" />
+    </Wave>
+
+    <Wave number="3">
+      <Spawn enemy="2" yPercentage="40" time="1" />
+      <Spawn enemy="2" yPercentage="40" time="4" />
+      <Spawn enemy="2" yPercentage="40" time="7" />
+      <Spawn enemy="1" yPercentage="60" time="9" />
+      <Spawn enemy="1" yPercentage="20" time="11" />
+      <Spawn enemy="1" yPercentage="80" time="13" />
+    </Wave>
+
+    <Wave number="4">
+      <Spawn enemy="2" yPercentage="40" time="2" />
+      <Spawn enemy="2" yPercentage="50" time="2" />
+      <Spawn enemy="2" yPercentage="60" time="2" />
+      <Spawn enemy="1" yPercentage="35" time="6" />
+      <Spawn enemy="1" yPercentage="45" time="6" />
+      <Spawn enemy="1" yPercentage="55" time="6" />
+      <Spawn enemy="1" yPercentage="65" time="6" />
+    </Wave>
+
+    <Wave number="5">
+      <Spawn enemy="3" yPercentage="50" time="1" />
+      <Spawn enemy="1" yPercentage="20" time="3" />
+      <Spawn enemy="3" yPercentage="50" time="5" />
+      <Spawn enemy="1" yPercentage="80" time="8" />
+      <Spawn enemy="3" yPercentage="50" time="10" />
+      <Spawn enemy="1" yPercentage="20" time="13" />
+    </Wave>
+
+    <Wave number="6">
+      <Spawn enemy="3" yPercentage="25" time="1" />
+      <Spawn enemy="2" yPercentage="40" time="3" />
+      <Spawn enemy="2" yPercentage="60" time="4" />
+      <Spawn enemy="2" yPercentage="40" time="6" />
+      <Spawn enemy="2" yPercentage="60" time="8" />
+      <Spawn enemy="3" yPercentage="75" time="10" />
+      <Spawn enemy="3" yPercentage="55" time="15" />
+      <Spawn enemy="3" yPercentage="45" time="15" />
+    </Wave>
+
+    <Wave number="7">
+      <Spawn enemy="4" yPercentage="25" time="1" />
+      <Spawn enemy="4" yPercentage="25" time="5" />
+      <Spawn enemy="2" yPercentage="40" time="7" />
+      <Spawn enemy="2" yPercentage="60" time="8" />
+      <Spawn enemy="4" yPercentage="75" time="10" />
+      <Spawn enemy="4" yPercentage="75" time="14" />
+    </Wave>
+
+    <Wave number="8">
+      <Spawn enemy="2" yPercentage="15" time="1" />
+      <Spawn enemy="2" yPercentage="85" time="1" />
+      <Spawn enemy="3" yPercentage="30" time="3" />
+      <Spawn enemy="3" yPercentage="70" time="3" />
+      <Spawn enemy="4" yPercentage="40" time="5" />
+      <Spawn enemy="4" yPercentage="60" time="5" />
+      <Spawn enemy="1" yPercentage="50" time="7" />
+      <Spawn enemy="1" yPercentage="50" time="8" />
+      <Spawn enemy="2" yPercentage="40" time="11" />
+      <Spawn enemy="2" yPercentage="60" time="11" />
+      <Spawn enemy="3" yPercentage="30" time="14" />
+      <Spawn enemy="3" yPercentage="70" time="14" />
+      <Spawn enemy="4" yPercentage="15" time="17" />
+      <Spawn enemy="4" yPercentage="85" time="17" />
+    </Wave>
+
+    <Wave number="9">
+      <Spawn enemy="5" yPercentage="50" time="1" />
+      <Spawn enemy="5" yPercentage="85" time="5" />
+      <Spawn enemy="5" yPercentage="35" time="9" />
+      <Spawn enemy="5" yPercentage="60" time="13" />
+      <Spawn enemy="5" yPercentage="15" time="18" />
+      <Spawn enemy="5" yPercentage="70" time="20" />
+    </Wave>
+
+    <Wave number="10">
+      <Spawn enemy="2" yPercentage="15" time="1" />
+      <Spawn enemy="2" yPercentage="85" time="1" />
+      <Spawn enemy="5" yPercentage="50" time="2" />
+      <Spawn enemy="3" yPercentage="30" time="4" />
+      <Spawn enemy="3" yPercentage="70" time="4" />
+      <Spawn enemy="5" yPercentage="85" time="7" />
+      <Spawn enemy="4" yPercentage="40" time="6" />
+      <Spawn enemy="4" yPercentage="60" time="6" />
+      <Spawn enemy="1" yPercentage="50" time="9" />
+      <Spawn enemy="1" yPercentage="50" time="10" />
+      <Spawn enemy="5" yPercentage="35" time="11" />
+      <Spawn enemy="2" yPercentage="40" time="13" />
+      <Spawn enemy="2" yPercentage="60" time="13" />
+      <Spawn enemy="5" yPercentage="65" time="14" />
+      <Spawn enemy="3" yPercentage="30" time="16" />
+      <Spawn enemy="3" yPercentage="70" time="16" />
+      <Spawn enemy="5" yPercentage="20" time="18" />
+      <Spawn enemy="4" yPercentage="15" time="20" />
+      <Spawn enemy="4" yPercentage="85" time="20" />
+      <Spawn enemy="5" yPercentage="50" time="24" />
+    </Wave>
+  </Waves>
+</EnemyWaves>
